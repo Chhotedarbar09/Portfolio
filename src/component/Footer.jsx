@@ -6,7 +6,7 @@ export default function Footer() {
         {/* Social Links */}
         <div className="flex justify-center gap-6 mb-5 text-lg">
           <a
-            href="#"
+            href="https://github.com/Chhotedarbar09"
             className="hover:text-teal-400 transition"
             target="_blank"
           >
@@ -33,7 +33,7 @@ export default function Footer() {
 
         {/* Copyright */}
         <p className="text-sm text-gray-500">
-          © {new Date().getFullYear()} <span className="text-teal-400 font-medium">MyPortfolio</span> — All Rights Reserved
+          © {new Date().getFullYear()} <span className="text-teal-400 font-medium">Digvijaysinh</span> — All Rights Reserved
         </p>
 
         {/* Back to top */}
