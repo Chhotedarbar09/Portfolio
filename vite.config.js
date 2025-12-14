@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/Portfolio/', // yahin CAPITAL P, repo name jaisa hi
+  base: '/', // yahin CAPITAL P, repo name jaisa hi
 })

@@ -1,4 +1,4 @@
-export default function Hero() {
+export default function Hero({onViewProjectsClick}) {
   return (
     <section
       id="home"
@@ -8,12 +8,12 @@ export default function Hero() {
         
         {/* Small Welcome Text */}
         <p className="text-teal-400 font-medium tracking-widest">
-          👋 Hi, I’m Darbar Saheb
+          👋 Hi, I’m Digvijaysinh Atodariya
         </p>
 
         {/* Big Heading */}
         <h1 className="mt-4 text-4xl md:text-6xl font-extrabold leading-tight">
-          I'm a <span className="text-teal-400">Frontend Developer</span> <br />
+          I'm a <span className="text-teal-400">Full-Stack Developer</span> <br />
           building clean & modern web experiences.
         </h1>
 
@@ -29,12 +29,10 @@ export default function Hero() {
         <div className="mt-8 flex items-center justify-center gap-5">
           
           {/* View Projects Button */}
-          <a
-            href="#projects"
-            className="px-6 py-3 bg-teal-400 text-black font-semibold rounded-full hover:bg-teal-300 transition shadow-lg shadow-teal-500/20"
-          >
-            View Projects
-          </a>
+          <button type="button" onClick={onViewProjectsClick} className="px-6 py-3 bg-teal-400 text-black font-semibold rounded-full hover:bg-teal-300 transition shadow-lg shadow-teal-500/20"> View Projects</button>
+            
+         
+          
 
           {/* GitHub Button */}
           <a
