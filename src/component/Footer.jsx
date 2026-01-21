@@ -20,7 +20,7 @@ export default function Footer() {
             LinkedIn
           </a>
           <a
-            href="https://www.instagram.com/darbarsaheb09/"
+            href="https://www.instagram.com/developer_digvijay09/"
             className="hover:text-teal-400 transition"
             target="_blank"
           >
